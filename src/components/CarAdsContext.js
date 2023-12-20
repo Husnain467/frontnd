@@ -13,7 +13,7 @@ export function CarAdsProvider({ children }) {
 
 const fetchProduct = async () => {
   try {
-    let result = await fetch('http://localhost:5000/get-items');
+    let result = await fetch('https://server-delta-blush.vercel.app/get-items');
     result = await result.json();
     console.log(result);
 
