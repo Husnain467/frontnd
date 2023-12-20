@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000'; // Update this with your server URL
+const url = 'https://server-delta-blush.vercel.app/'; // Update this with your server URL
 
 const api = axios.create({
   baseURL: url,
