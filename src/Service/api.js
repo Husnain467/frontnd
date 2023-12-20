@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://tender-pig-cowboy-boots.cyclic.app/'; // Update this with your server URL
+const url = 'https://hasnaindeploy.vercel.app'; // Update this with your server URL
 
 const api = axios.create({
   baseURL: url,
