@@ -13,7 +13,7 @@ export function CarAdsProvider({ children }) {
 
 const fetchProduct = async () => {
   try {
-    let result = await fetch('https://server-delta-blush.vercel.app/get-items');
+    let result = await fetch('https://tender-pig-cowboy-boots.cyclic.app/get-items');
     result = await result.json();
     console.log(result);
 
